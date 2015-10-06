@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfe9f87e-6e98-4d69-afec-0904b049b8a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Documents/Sheets/1. Java EE - Introduction.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Documents/Sheets/2. Java EE - Data Source Layer.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/oose/dea/items/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/classes/oose/dea/items/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/oose/dea/items/ItemService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/classes/oose/dea/items/ItemService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Documents/Sheets/Java EE - Presentation Layer.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/oose/dea/items/ViewItemsController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/classes/oose/dea/items/ViewItemsController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/entities/Album.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/dataAccess/DataAccessController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/oose/dea/items/ItemService.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
@@ -15,6 +28,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/service/playlist/PlaylistManager.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/service/PlaylistManagerService.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/frontend/models/PlaylistModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/entities/Song.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/dataAccess/SongDAO.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/entities/Track.java" />
@@ -22,23 +36,31 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/dataAccess/VideoDAO.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/oose/dea/items/ViewItemsController.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/frontend/views/playlist/addTrack.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/frontend/views/playlist/index.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsp-servlet-example.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_servlet_example_war.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_servlet_example_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/next.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/next.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/frontend/views/playlist/playlist.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spotitube/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\src\main\java\oose\dea\services\rest\Item.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\src\main\java\oose\dea\services\rest\ItemRestService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\classes\oose\dea\services\rest\Item.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\classes\oose\dea\services\rest\ItemRestService.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\classes\oose\dea\services\rest\RestResourceConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\activation-1.1.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\aopalliance-repackaged-2.4.0-b10.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\hk2-api-2.4.0-b10.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\hk2-locator-2.4.0-b10.jar" afterPath="" />
@@ -49,11 +71,9 @@
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\jackson-jaxrs-base-2.3.2.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\jackson-jaxrs-json-provider-2.3.2.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\jackson-module-jaxb-annotations-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javaee-api-7.0.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javax.annotation-api-1.2.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javax.inject-2.4.0-b10.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javax.mail-1.5.0.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javax.ws.rs-api-2.0.1.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\jersey-client-2.17.jar" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\jersey-common-2.17.jar" afterPath="" />
@@ -89,7 +109,12 @@
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\site\plugins.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\site\project-info.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\site\project-summary.html" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\src\main\java\oose\dea\services\rest\Item.java" afterPath="$PROJECT_DIR$/src/main/java/oose/dea/items/Item.java" />
       <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\src\main\java\oose\dea\services\rest\RestResourceConfig.java" afterPath="$PROJECT_DIR$/../../Spotitube/src/main/java/oose/dea/service/rest/RestResourceConfig.java" />
+      <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\activation-1.1.jar" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/lib/activation-1.1.jar" />
+      <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javaee-api-7.0.jar" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/lib/javaee-api-7.0.jar" />
+      <change type="MOVED" beforePath="C:\Users\Wijnand\Development\OOSE\spotitube\Spotitube\target\simple-jersey-rest-1.0-SNAPSHOT\WEB-INF\lib\javax.mail-1.5.0.jar" afterPath="$PROJECT_DIR$/target/jsp-servlet-example/WEB-INF/lib/javax.mail-1.5.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spotitube/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Spotitube/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spotitube/pom.xml" afterPath="$PROJECT_DIR$/../../Spotitube/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spotitube/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Spotitube/.idea/workspace.xml" />
@@ -161,7 +186,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/next.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46961325">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -701,16 +726,16 @@
       <option name="number" value="Default" />
       <updated>1444132428510</updated>
       <workItem from="1444132429954" duration="2604000" />
-      <workItem from="1444135062256" duration="1364000" />
+      <workItem from="1444135062256" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3968000" />
+    <option name="totallyTimeSpent" value="4018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -725,7 +750,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33846155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25614974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25614974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -882,7 +907,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/next.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46961325">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding />
         </state>
       </provider>

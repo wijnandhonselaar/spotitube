@@ -13,6 +13,6 @@
 <body>
     <p>Next World!</p>
     <p>Current time: <%= new Date() %></p>
-    <a href="/view-items">View items!</a>
+    <a href="/view-items">View items!</a>f
 </body>
 </html>
