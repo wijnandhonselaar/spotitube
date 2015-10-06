@@ -17,6 +17,10 @@
         <servlet-name>viewItems</servlet-name>
         <servlet-class>oose.dea.items.ViewItemsController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>viewItem</servlet-name>
+        <servlet-class>oose.dea.items.ViewItemsController</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>next</servlet-name>
@@ -25,6 +29,10 @@
     <servlet-mapping>
         <servlet-name>viewItems</servlet-name>
         <url-pattern>/view-items</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>viewItem</servlet-name>
+        <url-pattern>/view-item</url-pattern>
     </servlet-mapping>
 
 </web-app>

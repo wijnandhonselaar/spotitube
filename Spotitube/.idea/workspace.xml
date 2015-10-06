@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c42df70-7d6b-4f79-879a-eec4f9e95bd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/view-items.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/classes/oose/dea/items/ViewItemsController.class" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/classes/oose/dea/items/ViewItemsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/WEB-INF/classes/oose/dea/items/ViewItemsController.class" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/WEB-INF/classes/oose/dea/items/ViewItemsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example.war" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/java/oose/dea/items/ViewItemsController.java" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/java/oose/dea/items/ViewItemsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/next.jsp" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/next.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/index.html" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/next.jsp" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/next.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/target/jsp-servlet-example/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercises/jsp-servlet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Exercises/jsp-servlet/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Spotitube.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -800,12 +808,12 @@
       <option name="number" value="Default" />
       <updated>1444119811580</updated>
       <workItem from="1444119813121" duration="6995000" />
-      <workItem from="1444136472571" duration="649000" />
+      <workItem from="1444136472571" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7644000" />
+    <option name="totallyTimeSpent" value="8032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
