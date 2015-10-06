@@ -22,6 +22,7 @@ public class ViewItemsController extends HttpServlet {
         PrintWriter writer = resp.getWriter();
 
         writer.println("<html><head><title>Hello</title></head><body>");
+        writer.println("<h1><a href=\"/\"><span>Home, I am Lorde...</span></a> </h1>");
         writer.println("<p>Current time: " + new Date() + "</p>");
         for (Item item : new ItemService().findAll()) {
             writer.print("<ul> <li>Sku: " + item.getSku() + "</li>");

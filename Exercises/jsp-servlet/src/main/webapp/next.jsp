@@ -11,6 +11,7 @@
 <html>
 <head><title>Next!</title></head>
 <body>
+    <h1><a href="/"><span>Home, I am Lorde...</span></a> </h1>
     <p>Next World!</p>
     <p>Current time: <%= new Date() %></p>
     <a href="/view-items">View items!</a>f
