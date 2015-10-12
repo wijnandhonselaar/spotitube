@@ -4,24 +4,30 @@ package oose.dea.entities;
  * Created by Wijnand on 6-10-2015.
  */
 public class Track {
+    private String performer;
+    private boolean available;
+    private String title;
+    private String url;
+    private long duration;
+
     /**
      * @param performer
      * @param available
      * @param title
-     * @param utl
+     * @param url
      * @param duration
      */
-    public Track(String performer, boolean available, String title, String utl, long duration) {
+    public Track(String performer, boolean available, String title, String url, long duration) {
         this.performer = performer;
         this.available = available;
         this.title = title;
-        this.utl = utl;
+        this.url = url;
         this.duration = duration;
     }
 
-    public Track() {}
 
-    private String performer;
+    public Track() {
+    }
 
     public String getPerformer() {
         return performer;
@@ -31,9 +37,6 @@ public class Track {
         this.performer = performer;
     }
 
-    private boolean available;
-
-
     public boolean isAvailable() {
         return available;
     }
@@ -41,8 +44,6 @@ public class Track {
     public void setAvailable(boolean available) {
         this.available = available;
     }
-
-    private String title;
 
     public String getTitle() {
         return title;
@@ -52,17 +53,13 @@ public class Track {
         this.title = title;
     }
 
-    private String utl;
-
-    public String getUtl() {
-        return utl;
+    public String getUrl() {
+        return url;
     }
 
-    public void setUtl(String utl) {
-        this.utl = utl;
+    public void setUrl(String url) {
+        this.url = url;
     }
-
-    private long duration;
 
     public long getDuration() {
         return duration;

@@ -6,6 +6,10 @@ import java.util.Calendar;
  * Created by Wijnand on 6-10-2015.
  */
 public class Video extends Track {
+    private int playcount;
+    private Calendar publicationDate;
+    private String description;
+
     /**
      * @param performer
      * @param available
@@ -22,9 +26,8 @@ public class Video extends Track {
         this.description = description;
     }
 
-    public Video() {}
-
-    private int playcount;
+    public Video() {
+    }
 
     public int getPlaycount() {
         return playcount;
@@ -34,8 +37,6 @@ public class Video extends Track {
         this.playcount = playcount;
     }
 
-    private Calendar publicationDate;
-
     public Calendar getPublicationDate() {
         return publicationDate;
     }
@@ -43,8 +44,6 @@ public class Video extends Track {
     public void setPublicationDate(Calendar publicationDate) {
         this.publicationDate = publicationDate;
     }
-
-    private String description;
 
     public String getDescription() {
         return description;

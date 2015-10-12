@@ -1,14 +1,19 @@
 package oose.dea.entities;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Wijnand on 6-10-2015.
  */
 public class Playlist {
 
-    public Playlist(String name, String owner, ArrayList<Track> tracks) {
-        if(tracks.isEmpty()) {
+    private String name = null;
+    private String owner;
+    private List<Track> tracks = new ArrayList<>();
+
+    public Playlist(String name, String owner, List<Track> tracks) {
+        if (tracks.isEmpty()) {
             throw new NullPointerException();
         }
         this.name = name;
@@ -16,10 +21,8 @@ public class Playlist {
         this.tracks = tracks;
     }
 
-    public Playlist() {};
-
-
-    private String name = null;
+    public Playlist() {
+    }
 
     public String getName() {
         return name;
@@ -29,20 +32,24 @@ public class Playlist {
         this.name = name;
     }
 
-    private String owner;
-
     public String getOwner() {
 
         return this.owner;
     }
 
-    private ArrayList<Track> tracks = new ArrayList<>();
-
-    public ArrayList<Track> getTracks() {
+    public List<Track> getTracks() {
         return tracks;
     }
 
-    public void setTracks(ArrayList<Track> tracks) {
-        this.tracks = tracks;
+    public void setTracksList(List<Track> tracklist) {
+        this.tracks = tracklist;
+    }
+
+    public void addTrack(Track track) {
+        this.tracks.add(track);
+    }
+
+    public void delete() {
+        // delete this track
     }
 }
