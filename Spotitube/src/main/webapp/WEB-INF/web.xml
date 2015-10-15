@@ -10,7 +10,7 @@
 
     <servlet>
         <servlet-name>list</servlet-name>
-        <servlet-class>oose.dea.frontend.controllers.SearchPlaylistController</servlet-class>
+        <servlet-class>oose.dea.frontend.controllers.ListPlaylistController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>list</servlet-name>

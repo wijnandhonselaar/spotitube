@@ -6,6 +6,7 @@ import oose.dea.entities.Track;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,10 +24,9 @@ public class PlaylistDAO {
      * @param playlist
      */
     protected void create(Playlist playlist) {
-        System.out.println(playlist.getOwner());
-        System.out.println(playlist.getName());
-        em.getTransaction();
+        em.getTransaction().begin();
         em.persist(playlist);
+        em.flush();
         em.getTransaction().commit();
     }
 
@@ -58,7 +58,8 @@ public class PlaylistDAO {
      * @return Playlist
      */
     protected Playlist getByName(String name) {
-        return new Playlist();
+        Playlist playlist = em.find(Playlist.class, name);
+        return playlist;
     }
 
     /**
@@ -66,7 +67,9 @@ public class PlaylistDAO {
      * @return ArrayList<Playlist>
      */
     protected List<Playlist> getByOwner(String owner) {
-        return new ArrayList<Playlist>();
+        Query query = em.createQuery("SELECT p FROM Playlist p WHERE p.owner = :owner");
+        query.setParameter("owner", owner);
+        return (List<Playlist>) query.getResultList();
     }
 
     /**

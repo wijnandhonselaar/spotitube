@@ -8,6 +8,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -30,9 +31,9 @@ public class CreatePlaylistController extends HttpServlet {
         Playlist newPlaylist = new Playlist();
         newPlaylist.setName(req.getParameter("name"));
         newPlaylist.setOwner(req.getParameter("owner"));
+        HttpSession session = req.getSession();
+        session.setAttribute("username", req.getPart("owner"));
 
-        PrintWriter w = resp.getWriter();
-        w.print(newPlaylist);
         playlistManagerService.create(newPlaylist);
 
         req.setAttribute("playlist", newPlaylist);

@@ -2,7 +2,6 @@ package oose.dea.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,16 +9,14 @@ import java.util.List;
  */
 @Entity
 @Table(name = "Playlist")
-public class Playlist implements Serializable{
+public class Playlist implements Serializable {
 
     @Id
     private String name;
     private String owner;
     @OneToMany
     @JoinColumn(name="name")
-    private List<Track> getTracks() {
-        return null;
-    }
+    private List<TrackAvailability> trackCollection;
 
 
 //    public Playlist(String name, String owner, List<Track> tracks) {
@@ -56,5 +53,13 @@ public class Playlist implements Serializable{
 
     public void setOwner(String owner) {
         this.owner = owner;
+    }
+
+    public List<TrackAvailability> getTracks() {
+        return trackCollection;
+    }
+
+    public void setTracks(List<TrackAvailability> tracks) {
+        this.trackCollection = tracks;
     }
 }

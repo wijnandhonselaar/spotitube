@@ -15,5 +15,36 @@
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="spotitubetest"/>
+    <table name="playlist" schema="" catalog="spotitubetest" type="TABLE">
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="owner" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="name"/>
+    </table>
+    <table name="song" schema="" catalog="spotitubetest" type="TABLE">
+      <column name="album" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKrmj168rnh1qitxw13j35n7g50" columns="id" ref-table="track" ref-schema="" ref-catalog="spotitubetest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="track" schema="" catalog="spotitubetest" type="TABLE">
+      <column name="type" sqlType="VARCHAR" precision="31" scale="0" nullable="false" jdbcType="12"/>
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="available" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="duration" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="performer" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="url" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FKrmj168rnh1qitxw13j35n7g50" table="song" schema="" catalog="spotitubetest" columns="id"/>
+      <exported-key name="FKqaaip1vuuc4cwnrclwp60u22i" table="video" schema="" catalog="spotitubetest" columns="id"/>
+    </table>
+    <table name="video" schema="" catalog="spotitubetest" type="TABLE">
+      <column name="description" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="playcount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="publicationDate" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="FKqaaip1vuuc4cwnrclwp60u22i" columns="id" ref-table="track" ref-schema="" ref-catalog="spotitubetest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
   </data-source>
 </component>

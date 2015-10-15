@@ -34,8 +34,6 @@ public class PlaylistController extends HttpServlet {
                 req.getRequestDispatcher("/playlist/view.jsp").forward(req, resp);
                 break;
             case "/playlist/all":
-                req.setAttribute("playlists", playlistManagerService.getAll());
-                req.getRequestDispatcher("/playlist/list.jsp").forward(req, resp);
                 break;
             case "/playlist/create":
                 req.setAttribute("playlist", new PlaylistModel());

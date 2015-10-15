@@ -29,12 +29,13 @@ public class Track implements Serializable {
      * @param url
      * @param duration
      */
-    public Track(String performer, boolean available, String title, String url, long duration) {
+    public Track(String performer, boolean available, String title, String url, long duration, String type) {
         this.performer = performer;
         this.available = available;
         this.title = title;
         this.url = url;
         this.duration = duration;
+        this.type = type;
     }
 
 
@@ -88,7 +89,6 @@ public class Track implements Serializable {
     public void setId(int id) {
         this.id = id;
     }
-
 
     public String getType() {
         return type;

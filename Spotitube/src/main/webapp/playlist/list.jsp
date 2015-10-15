@@ -11,7 +11,7 @@
 <div>
     <ul>
         <c:forEach var="playlist" items="${playlists}">
-            <li><span>${playlist.name}</span> <a href="/playlist/${playlist.name}">View</a></li>
+            <li><span>${playlist.name}</span> <a href="/playlist/view?playlist-name=${playlist.name}">View</a></li>
         </c:forEach>
     </ul>
 </div>
