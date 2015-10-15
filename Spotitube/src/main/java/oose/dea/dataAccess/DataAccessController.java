@@ -1,4 +1,4 @@
-package oose.dea.dataAccess;
+package oose.dea.dataaccess;
 
 import oose.dea.entities.Playlist;
 import oose.dea.entities.Track;
@@ -11,8 +11,7 @@ import java.util.List;
 public class DataAccessController {
 
     PlaylistDAO playlistDAO = new PlaylistDAO();
-    SongDAO songDAO = new SongDAO();
-    VideoDAO videoDAO = new VideoDAO();
+    TrackDAO trackDAO = new TrackDAO();
 
     public void createPlaylist(Playlist playlist) {
         playlistDAO.create(playlist);

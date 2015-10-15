@@ -1,10 +1,18 @@
 package oose.dea.entities;
 
+import javax.persistence.*;
+import java.io.Serializable;
+
 /**
  * Created by Wijnand on 6-10-2015.
  */
-public class Song extends Track {
+//@Entity
+//@Table(name="song")
+//@PrimaryKeyJoinColumn(name="trackid")
+public class Song extends Track implements Serializable {
     private String album;
+
+    private int trackid;
 
     /**
      * @param performer

@@ -1,8 +1,11 @@
-package oose.dea.dataAccess;
+package oose.dea.dataaccess;
 
 import oose.dea.entities.Playlist;
 import oose.dea.entities.Track;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,11 +14,20 @@ import java.util.List;
  */
 public class PlaylistDAO {
 
+    private EntityManager em;
+    public PlaylistDAO() {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("spotitubetest");
+        this.em = emf.createEntityManager();
+    }
     /**
      * @param playlist
      */
     protected void create(Playlist playlist) {
-
+        System.out.println(playlist.getOwner());
+        System.out.println(playlist.getName());
+        em.getTransaction();
+        em.persist(playlist);
+        em.getTransaction().commit();
     }
 
     /**

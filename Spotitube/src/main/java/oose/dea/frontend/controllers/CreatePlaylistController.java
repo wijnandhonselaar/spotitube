@@ -27,9 +27,10 @@ public class CreatePlaylistController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Playlist newPlaylist = new Playlist(req.getParameter("name"), req.getParameter("owner"), new ArrayList<Track>() {{
-            add(new Track("Arctic Monkeys", false, "I bet you look good at the dancefloor", "/path/to/song", 180));
-        }});
+        Playlist newPlaylist = new Playlist();
+        newPlaylist.setName(req.getParameter("name"));
+        newPlaylist.setOwner(req.getParameter("owner"));
+
         PrintWriter w = resp.getWriter();
         w.print(newPlaylist);
         playlistManagerService.create(newPlaylist);

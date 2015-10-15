@@ -7,5 +7,11 @@
       <schema-pattern>spotitube.*</schema-pattern>
       <default-schemas>spotitube.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - spotitubeTest@localhost" uuid="ac50fa89-c9d0-4daf-94fe-07f798aae20b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>spotitubetest.*</schema-pattern>
+      <default-schemas>spotitubetest.*</default-schemas>
+    </data-source>
   </component>
 </project>

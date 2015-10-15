@@ -1,14 +1,26 @@
 package oose.dea.entities;
 
+import javax.persistence.*;
+import java.io.Serializable;
+
 /**
  * Created by Wijnand on 6-10-2015.
  */
-public class Track {
+@Entity
+@Table(name="track")
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name="type")
+public class Track implements Serializable {
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @JoinColumn(name="id")
+    private int id;
     private String performer;
     private boolean available;
     private String title;
     private String url;
     private long duration;
+    private String type;
 
     /**
      * @param performer
@@ -67,5 +79,22 @@ public class Track {
 
     public void setDuration(long duration) {
         this.duration = duration;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
